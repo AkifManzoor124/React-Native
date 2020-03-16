@@ -15,11 +15,12 @@ export default class Styles extends Component {
         <Text style = {styles.DefaultText}>My name is</Text>
         <Text style = {styles.DefaultText}>WHAaT?</Text>
         <Text style = {styles.DefaultText}>Chika-Chika</Text>
-        <Text style = {styles.efaultText}>Slimshady</Text>
+        <Text style = {styles.DefaultText}>Slimshady</Text>
         <Text>Table</Text>
         <Text style = {[styles.Table, styles.DefaultText]}>Mississauga</Text>
         <Text style = {[styles.Table, styles.DefaultText]}>Ottawa</Text>
         <Text style = {[styles.Table, styles.DefaultText]}>Singapore</Text>
+        <Text style = {[styles.Table, styles.DefaultText]}>Markham</Text>
       </View>
     );
   }
@@ -34,13 +35,13 @@ const styles = StyleSheet.create({
   },
   DefaultText: {
     fontSize: 22,
-    color: 'black'
+    color: 'black',
   },
   Table:{
     fontWeight: 'bold',
     borderWidth: StyleSheet.hairlineWidth,
     padding: 10,
-    margin:5
+    margin:5,
   }
 });
 
