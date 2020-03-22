@@ -22,6 +22,7 @@ export default class App extends Component {
       //Allows us to overwrite the background colour of the app
       <View style={[styles.container,{backgroundColor}]}>
         <Text style = {styles.button}
+        // We can use onPress on the text component so that the user can interact with it
           onPress={() => this.changeColor('green')}>Green</Text>
         <Text style = {styles.button}
           onPress={() => this.changeColor('pink')}>Pink</Text>
